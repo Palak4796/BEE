@@ -1,4 +1,4 @@
-// let file2=require("./file2")
+// let file2=require("./file2") commonjs 
 let file3=require("./file3")
 // let food="fish"
 function cat(){
