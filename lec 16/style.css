@@ -1,0 +1,7 @@
+body{
+    position: relative;
+}
+.hide{
+    display: none;
+    position: absolute;
+}

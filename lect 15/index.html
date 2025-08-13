@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upnit's HTML</title>
+</head>
+<body>
+    <div>
+        <h1>This is Upnit HTML</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloremque ipsa dolore. Dolore enim voluptate iure quo debitis minus doloremque veniam animi molestiae totam, consequuntur exercitationem voluptatibus, placeat repellendus aliquam assumenda consectetur.</p>
+        
+        
+        <button class="change-color" id="startBtn">Change Colour</button>
+        <button class="stop" id="stopBtn">Stop</button>
+        
+
+        <form class="todoform">
+            <h2>Add a New Todo</h2>
+            
+            <label for="title">Todo Title:</label><br>
+            <input type="text" id="title" name="title" placeholder="Enter Todo title" required><br><br>
+            
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" placeholder="Enter Todo description"></textarea><br><br>
+            
+            <label for="duedate">Due Date:</label><br>
+            <input type="date" id="duedate" name="duedate"><br><br>
+            
+            <label for="priority">Priority:</label><br>
+            <select id="priority" name="priority">
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+            </select><br><br>
+            
+            <button type="submit">Add Todo</button>
+        </form>
+        
+        
+        <h2>Todo List</h2>
+        <ul class="todolist">
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
